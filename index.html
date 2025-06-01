@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Bầu Trời Anh Yêu Em</title>
+  <title>Linh tinh gì đấy</title>
   <style>
     html, body {
       margin: 0;
@@ -20,13 +20,14 @@
   <script>
     const canvas = document.getElementById('loveCanvas');
     const ctx = canvas.getContext('2d');
+
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
     let width = canvas.width;
     let height = canvas.height;
 
-    const total = 300;
+    const total = 100;
     const centerZ = 1000;
     const stars = [];
 
@@ -38,9 +39,9 @@
 
     for (let i = 0; i < total; i++) {
       stars.push({
-        text: "HTH",
-        x: (Math.random() - 0.5) * width,
-        y: (Math.random() - 0.5) * height,
+        text: "Shop chúc bạn Jenny vui vẻ mỗi ngày. 😘😘",
+        x: (Math.random() - 0.5) * width * 2,
+        y: (Math.random() - 0.5) * height * 2,
         z: Math.random() * centerZ,
         size: Math.random() * 20 + 10
       });
